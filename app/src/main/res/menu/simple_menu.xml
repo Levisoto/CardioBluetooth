@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_settings"
+        android:title="Ajustes"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/save"
+        android:title="Ajustes"
+        android:icon="@drawable/ic_action_save"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/add"
+        android:title="Ajustes"
+        android:icon="@drawable/ic_action_new"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/bluetooth"
+        android:title="Ajustes"
+        android:icon="@drawable/ic_action_bluetooth"
+        app:showAsAction="ifRoom"/>
+
+</menu>
